@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+body {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    
+    height:400vh
+
+}
+
+.hero,#poke{
+    font-size: 1.5em;
+}
+ #para{
+    font-size: 2rem;
+    color:white;
+}
+.hero {
+    background: url('food_back.jpg') center/cover no-repeat; /* Use your image path */
+    min-height: 80vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.hero{
+    opacity: 0.8;
+}
+.page2
+{
+    background-color:whitesmoke;
+
+}
+.second_page,#p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.second_page,#e{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    font-style: normal;
+
+}
+#egg,img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin:15px;
+}
+#rice,img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin:15px;
+}
+#chicken,img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin:15px;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+    
+}
+.one{
+    width:58px;
+    height:60px;
+    border-radius: 50px;
+    color:white;
+    background-color: #28a745;
+    margin:80px;
+    margin-top:0px;
+    
+    
+}
+#name{
+     color:black;
+     font-size: 18px;
+     font-family: poppins;
+     margin-top:8px;
+     padding:10px;
+     
+     
+}
+#name1{
+    color:black;
+    font-size: 18px;
+    font-family: poppins;
+    margin-top:8px;
+    padding:10px;
+    
+}
+#name2{
+    color:black;
+    font-size: 18px;
+    font-family: poppins;
+    margin-top:8px;
+    padding:10px;
+    
+}
+#name3{
+    color:black;
+    font-size: 18px;
+    font-family: poppins;
+    margin-top:8px;
+    padding:10px;
+    
+}
+
+
+
+.number{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+   
+}
+.page3{
+    height:500px;
+   background-color:rgb(66, 105, 7)
+}
+
+.healthy ,#hea{
+     text-align: left;
+     font-size: 24px;
+     font-style: normal;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-left:50px;
+     padding:50px;
+}
+.healthy ,#pea{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50px;
+     padding:50px;
+     padding-top:20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height:600px;
+    width:1470px;
+    
+    background-color: hsl(134, 76%, 80%);
+}
+
+.text-section {
+    max-width: 600px;
+    color: #333;
+}
+
+.text-section,h1,  #hea {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left:80px;
+    margin-top: 10px;
+    
+    
+}
+
+
+.text-section p #pea {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.text-section button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text-section button:hover {
+    background-color: #218838;
+}
+
+.image-section img {
+    width:400px;
+    height: 400px;
+    
+    margin-right:150px;
+}
+
+.products{
+    text-align:center;
+    text-indent: 10px;
+    display: flex;
+    border: 6px solid #218838;
+    border: none;
+    
+    background-color: hsl(134, 66%, 66%);
+  }
+  
+#pil{
+    padding:10px;font-size :25px;
+    font-family: Georgia;
+    
+}
+  #pill{
+      padding:10px;font-size :25px;
+      font-family: Georgia;
+      
+  }
+  #pilll{
+    padding:10px;font-size :25px;
+    font-family: Georgia;
+    
+}
+  
+  .Avacado{
+    height:300px;
+    width:1700px;
+    background-image: url(ava.jpg);
+background-size:cover;
+background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+
+  }
+  .cookk img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+   
+  }
+.Avacado{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-left: 0px;
+
+}
+.Avacado{
+    padding-right: 200px;
+}
+  .cookk h4{
+    color:white;
+    font-size: 25px;
+    border:  3px #28a745 outset;
+  }
+  .cookk,img{
+    margin-bottom:3px;
+  }
+
+
+
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#hh {
+    font-size:25px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+h2 ,#on {
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.impact-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.impact-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 100%;
+    border: 2px hsl(133, 71%, 43%) solid;
+}
+
+#hg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hgg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hgggg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hggggg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hgggggg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hggggggg {
+    font-size:20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #666;
+    font-size: 17px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .impact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section #con {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Arial;
+   
+}
+
+.contact-section{
+    height:500px;
+    width:1700px;
+    background-color: hsl(98, 63%, 66%);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-text {
+    width: 45%;
+    text-align: left;
+}
+
+.image-text img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.newsletter {
+    width: 45%;
+    text-align: left;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+}
+
+.newsletter #per {
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Courier New';
+}
+#pwr{
+    font-family: 'Courier New';
+}
+#pwwr{
+    margin-top:35px;
+    font-family: 'Gill Sans';
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+form input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .image-text, .newsletter {
+        width: 100%;
+    }
+}
